@@ -42,6 +42,7 @@
   width: 200px;
   cursor: pointer;
   margin-right: 2%;
+  margin-bottom: 2rem;
 }
 
 .button2 {
@@ -57,8 +58,9 @@
 }
 
 .proposalCard {
-  width: fit-content;
-  margin-top: 0.25rem;
+  width: calc(fit-content + 0.5rem);
+  margin: 0.5rem 0;
+  padding: 20px;
   border: black 2px solid;
   flex: 1;
   flex-direction: column;

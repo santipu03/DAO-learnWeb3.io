@@ -22,7 +22,7 @@ module.exports = async ({ deployments, getNamedAccounts }) => {
         from: deployer,
         log: true,
         args: args,
-        value: ethers.utils.parseEther("1"),
+        value: ethers.utils.parseEther("0.15"),
         waitConfirmations: 6,
     })
 

@@ -88,7 +88,7 @@ contract CryptoDevsDAO is Ownable {
                 proposal.voters[tokenId] = true;
             }
         }
-        require(numVotes > 0, "ALREADY_VOTED");
+        require(numVotes > 0, "USER_ALREADY_VOTED");
 
         if (vote == Vote.YAY) {
             proposal.yayVotes += numVotes;
